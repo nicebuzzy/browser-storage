@@ -27,7 +27,7 @@ For development and testing in a Node environment, a `localStorage` mock is requ
 ### Userscripts
 
 ```js
-const Storage = await import('https://esm.run/@nicebuzzy/browser-storage')
+// @require https://cdn.jsdelivr.net/npm/@nicebuzzy/browser-storage/dist/storage.umd.js
 ```
 
 ---
